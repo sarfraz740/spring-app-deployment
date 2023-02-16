@@ -83,7 +83,29 @@ spec:
       port: 8080
       targetPort: 8080
       nodePort: 30000 # you can choose any port in the range 30000-32767
-      
+   In this YAML file:
+   
+   The kind field indicates that this is a Service object. The metadata section contains information about the Service such as its name, which in this 
+   
+   case is "my-app-service".
+
+The spec section specifies the Service's specifications, including its type which is set to NodePort. NodePort is a type of Service that exposes the 
+
+Service on a port on each node in the cluster. This allows external traffic to reach the Service by hitting the nodes' IP addresses and the specified 
+
+nodePort value.
+
+The selector field is used to identify the pods that this Service will target. In this case, the Service is targeted at pods with the label app: spring-
+
+app.
+
+The ports section lists the ports that the Service will use. In this case, there is only one port named http with a port value of 8080, a targetPort 
+
+value of 8080 and a nodePort value of 30000. This means that the Service will be accessible on port 30000 of the nodes in the cluster and will forward 
+
+traffic to port 8080 on the pods targeted by the selector field.
+   
+   
       
       
       
