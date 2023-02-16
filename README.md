@@ -54,8 +54,13 @@ In this YAML file:
 metadata.name :is the name of the deployment.
 
 spec.replicas : is the number of replicas that we want to deploy.
+
 spec.selector.matchLabels.app is the label used to select the pods to manage.
+
 spec.template.metadata.labels.app :is the label used to identify the pods in the deployment.
+
 spec.template.spec.containers.name :is the name of the container.
+
 spec.template.spec.containers.image :is the Docker image that we want to use.
+
 spec.template.spec.containers.ports.containerPort :is the port that our application will be running on
