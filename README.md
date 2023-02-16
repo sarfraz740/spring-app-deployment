@@ -1,4 +1,8 @@
 # spring-app-deployment
+***********************Spring App Deployment on minikune*************************
+
+detailed steps for creating a Minikube cluster
+
 command to install docker is
 
 sudo apt update && apt -y install docker.io
@@ -21,3 +25,5 @@ minikube status
 kubectl version
 
 kubectl get nodes
+*******************************************detailed steps of deployment and service yaml file******************
+
