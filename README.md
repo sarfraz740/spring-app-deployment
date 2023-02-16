@@ -83,6 +83,47 @@ spec:
       port: 8080
       targetPort: 8080
       nodePort: 30000 # you can choose any port in the range 30000-32767
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+  ***************************pod log details**********************    
+        .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v2.4.4)
+
+2023-02-16 17:12:14.055  INFO 1 --- [           main] com.springbootwebdemo.App                : Starting App v0.0.1-SNAPSHOT using Java 1.8.0_212 on spring-deployment-886f4c88c-7mvrs with PID 1 (/springbootwebdemo.war started by root in /)
+2023-02-16 17:12:14.060  INFO 1 --- [           main] com.springbootwebdemo.App                : No active profile set, falling back to default profiles: default
+2023-02-16 17:12:18.953  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-02-16 17:12:18.981  INFO 1 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-16 17:12:18.981  INFO 1 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.44]
+2023-02-16 17:12:21.151  INFO 1 --- [           main] org.apache.jasper.servlet.TldScanner     : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2023-02-16 17:12:21.350  INFO 1 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-16 17:12:21.350  INFO 1 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 7070 ms
+2023-02-16 17:12:22.261  INFO 1 --- [           main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-02-16 17:12:22.897  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-16 17:12:22.935  INFO 1 --- [           main] com.springbootwebdemo.App                : Started App in 9.923 seconds (JVM running for 11.629)
+
+      
+      
+      
+      
+      
+      
+      
 
 
 
